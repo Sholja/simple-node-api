@@ -1,0 +1,9 @@
+var path = require('path');
+
+module.exports = {
+    config: path.resolve('./', 'core/sequelize.js'),
+    'migrations-path': path.resolve('./', 'core/db/migrations'),
+    'seeders-path': path.resolve('./', 'core/db/seeders'),
+    'models-path': path.resolve('./', 'core/db/models'),
+};
+
